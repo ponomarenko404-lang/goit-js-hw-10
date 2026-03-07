@@ -1,0 +1,91 @@
+.delay-label {
+    display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 360px;
+}
+
+
+
+.delay-input {
+font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .04em;
+    color: #2e2f42;
+
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    
+    transition: border .25s ease-in-out;
+}
+
+.delay-input:hover {
+    border: 1px solid #000;
+}
+
+.delay-input:focus {
+    border: 1px solid #4e75ff;
+    outline: none;
+}
+
+.fieldset-area {
+    border-radius: 4px;
+    border: 1px solid #808080;
+    width: 360px;
+    height: 78px;
+    margin: 0 0 24px;
+    padding: 24px 28px 8px;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    transition: border 250ms ease-in-out;
+}
+
+.fieldset-area:hover {
+    border: 1px solid #000;
+}
+
+.state-label {
+        display: flex;
+            align-items: center;
+            gap: 8px;
+}
+
+.radio-input {
+    border: 1px solid #757575;
+    border-radius: 14px;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+
+    transition: border 250ms ease-in-out;
+}
+
+.submit-btn {
+    border: none;
+    border-radius: 8px;
+        padding: 8px 16px;
+        width: 360px;
+        height: 40px;
+        background: #4e75ff;
+
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #fff;
+
+            transition:
+                    background-color 250ms ease-in-out,
+                    color 250ms ease-in-out;
+}
+.submit-btn:hover,
+.submit-btn:focus {
+    background: #6c8cff;
+}
